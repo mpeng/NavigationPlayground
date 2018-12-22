@@ -132,7 +132,7 @@ const ExampleInfo = {
   },
   LinkTabs: {
     name: 'Link to Settings Tab',
-    description: 'Deep linking into a route in tab',
+    description: 'Deep linking into a route in tab.',
   },
   TabsWithNavigationFocus: {
     name: 'withNavigationFocus',
@@ -348,9 +348,9 @@ const AppNavigator = createAppContainer(
       headerMode: 'none',
 
       /*
-     * Use modal on iOS because the card mode comes from the right,
-     * which conflicts with the drawer example gesture
-     */
+       * Use modal on iOS because the card mode comes from the right,
+       * which conflicts with the drawer example gesture
+       */
       mode: Platform.OS === 'ios' ? 'modal' : 'card',
     }
   )
